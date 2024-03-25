@@ -51,7 +51,7 @@ Calcular el peso ideal
 - Extensions: si el usuario decide volver atrás la aplicación debe volver a la página en la que se selecciona qué medida desea que se calcule.
 
 ***
-#Práctica 3
+# Práctica 3
 Historias de Usuario
 
 1. Cálculo del peso ideal de una persona:
