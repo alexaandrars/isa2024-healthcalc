@@ -11,3 +11,10 @@ Refactoring: add enum to class
 Categoría: Class refactoring
 Descripción: reemplaxamos las constantes de género por un enum, Gender, con los valores FEMALE y MALE.
 Cambios: 1 añadir el enum Gender.
+
+- Refactoring 3:
+Bad Smell: Inadequate decomposition, Too many responsibility, Large/God Class
+Refactoring: Extract class
+Categoría: Class refactoring
+Descripción: pasamos las responsabilidades de calcular el peso ideal y la tasa metabólica basal a dos clases separadas CardiovascularMetrics y MetabolicMetrics
+Cambios: 2 añadimos dos clases CardiovascularMetrics y MetabolicMetrics
