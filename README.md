@@ -101,21 +101,35 @@ Descripción: reemplaxamos las constantes de género por un enum, Gender, con lo
 Cambios: 1 añadir el enum Gender.
 
 - Refactoring 3:
+
 Bad Smell: Inadequate decomposition, Too many responsibility, Large/God Class
+
 Refactoring: Extract class
+
 Categoría: Class refactoring
+
 Descripción: pasamos las responsabilidades de calcular el peso ideal y la tasa metabólica basal a dos clases separadas CardiovascularMetrics y MetabolicMetrics
+
 Cambios: 2 añadimos dos clases CardiovascularMetrics y MetabolicMetrics
 
 - Refactoring 4:
+
 Bad smell: Métodos con demasiada lógica interna
+
 Refactoring: move method, add method to class
+
 Categoría: Method Refactoring
+
 Descripción: Modificamos los métodos de HealthCalcImpl para poder usar las nuevas clases.
+
 Cambios: 1 archivo (HealthCalcImpl) y 2 métodos de este.
 
 - Refactoring 5:
+
 Bad smell: Divergent Change
+
 Refactoring: add class to hierarchy, add method to class
+
 Categoría: Class refactoring
+
 Cambios: 1 archivo, PersonImpl.
