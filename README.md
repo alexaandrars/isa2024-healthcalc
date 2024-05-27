@@ -83,3 +83,39 @@ Diagrama de clases con patrón Proxy
 
 Diagrama de clases con patrón Decorator
 ![Imagen diagrama de clases con patrón Decorator](/design_patterns/decorator.jpg)
+
+# Práctica 7
+
+- Refactoring 1:
+Bad Smell: Missing Inheritance or delegation, Object is missing
+Refactoring: add interface to hierarchy
+Categoría: Class refactoring
+Descripción: creamos una nueva interfaz, Person, que contiene los métodos "weight", "height", "gender" y "age"
+Cambios: 1 añadir la interfaz Person
+
+- Refactoring 2:
+Bad Smell: Attributes only used partially under certain circumstances, Temporary Field
+Refactoring: add enum to class
+Categoría: Class refactoring
+Descripción: reemplaxamos las constantes de género por un enum, Gender, con los valores FEMALE y MALE.
+Cambios: 1 añadir el enum Gender.
+
+- Refactoring 3:
+Bad Smell: Inadequate decomposition, Too many responsibility, Large/God Class
+Refactoring: Extract class
+Categoría: Class refactoring
+Descripción: pasamos las responsabilidades de calcular el peso ideal y la tasa metabólica basal a dos clases separadas CardiovascularMetrics y MetabolicMetrics
+Cambios: 2 añadimos dos clases CardiovascularMetrics y MetabolicMetrics
+
+- Refactoring 4:
+Bad smell: Métodos con demasiada lógica interna
+Refactoring: move method, add method to class
+Categoría: Method Refactoring
+Descripción: Modificamos los métodos de HealthCalcImpl para poder usar las nuevas clases.
+Cambios: 1 archivo (HealthCalcImpl) y 2 métodos de este.
+
+- Refactoring 5:
+Bad smell: Divergent Change
+Refactoring: add class to hierarchy, add method to class
+Categoría: Class refactoring
+Cambios: 1 archivo, PersonImpl.

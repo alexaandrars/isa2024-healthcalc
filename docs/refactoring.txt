@@ -48,7 +48,7 @@ Cambios: 1 archivo (HealthCalcImpl) y 2 métodos de este.
 
 - Refactoring 5:
 Bad smell: Divergent Change
-Refactoring:   GNU nano 7.2                    refactoring.txt                     Modified
+Refactoring: Class refactoring
 Descripción: reemplaxamos las constantes de género por un enum, Gender, con los>
 Cambios: 1 añadir el enum Gender.
 
