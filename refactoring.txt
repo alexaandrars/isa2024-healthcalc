@@ -1,0 +1,6 @@
+- Refactoring 1:
+Bad Smell: Missing Inheritance or delegation, Object is missing
+Refactoring: add interface to hierarchy
+Categoría: Class refactoring
+Descripción: creamos una nueva interfaz, Person, que contiene los métodos "weight", "height", "gender" y "age"
+Cambios: 1 añadir la interfaz Person
