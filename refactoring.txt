@@ -4,3 +4,10 @@ Refactoring: add interface to hierarchy
 Categoría: Class refactoring
 Descripción: creamos una nueva interfaz, Person, que contiene los métodos "weight", "height", "gender" y "age"
 Cambios: 1 añadir la interfaz Person
+
+- Refactoring 2:
+Bad Smell: Attributes only used partially under certain circumstances, Temporary Field
+Refactoring: add enum to class
+Categoría: Class refactoring
+Descripción: reemplaxamos las constantes de género por un enum, Gender, con los valores FEMALE y MALE.
+Cambios: 1 añadir el enum Gender.
